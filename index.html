@@ -1,4 +1,9 @@
-        <?php
-        header('Location: https://mfarine.github.io/pagesite/index.html');
-        exit;
-        ?>
+<html>
+<header
+    <?php
+header("Status: 301 Moved Permanently", false, 301);
+header("Location: https://mfarine.github.io/pagesite/index.html");
+exit();
+?>
+</header>
+</html>
